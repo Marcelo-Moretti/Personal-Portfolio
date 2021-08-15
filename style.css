@@ -408,10 +408,78 @@ img {
     transition: .5s;
 }
 
-.skills__titles {
+.skills__list {
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills__title {
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage {
+    height: 5px;
+    border-radius: .25rem;
+    background-color: var(--first-color-ligter);
+}
+
+.skills__percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills__html {
+    width: 70%;
+}
+
+.skills__css {
+    width: 40%;
+}
+
+.skills__js {
+    width: 10%;
+}
+
+.skills__react {
+    width: 5%;
+}
+
+.skills__circuit {
+    width: 75%;
+}
+
+.skills__maintenance {
+    width: 80%;
+}
+
+.skills__installer {
+    width: 50%;
+}
+
+.skills__product {
+    width: 20%;
+}
+
+.skills__close .skills__list {
+    height: 0;
+    overflow: hidden;
+}
+
+.skills__open .skills__list {
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+    transform: rotate(180deg);
 }
 
 /*========== QUALIFICATION ==========*/
