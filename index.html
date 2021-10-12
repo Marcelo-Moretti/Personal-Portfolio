@@ -21,12 +21,10 @@
 <body>
     <!--========== HEADER ==========-->
     <header class="header" id="header">
-
         <!-- ========= HEADER LOGO =========-->
         <a href="#" class="nav__logo">
             <img src="#" alt="LOGO">
         </a>
-
         <!--========== HEADER MENU ==========-->
         <nav class="nav container">
             <!--===== MENU ITEMS =====-->
@@ -65,7 +63,6 @@
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
-
             <div class="nav__btns">
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
@@ -282,15 +279,30 @@
         </section>
         <!-- ========== REFERENCES ========== -->
         <section class="references section">
-            
+
         </section>
         <!--========== CONTACT ==========-->
         <section class="contact section">
             <!-- ===== SOCIAL MEDIA =====-->
 
             <!-- ===== CONTACT FORM ===== -->
-            <form action="#">
-                <input type="text">
+            <form action="/formulario" method="POST" class="contact-form">
+                <h3>Contact me!</h3>
+                <br>
+                <label for="input-name">¿Who are you?</label>
+                <br>
+                <input type="text" id="input-name" name="user-name" placeholder="Name">
+                <br>
+                <label for="input-email">¿What's your email?</label>
+                <br>
+                <input type="email" id="input-email" name="user-email" placeholder="Email">
+                <br>
+                <label for="input-comentary">Tell me something</label>
+                <br>
+                <textarea rows="10" cols="30" id="input-comentary" name="user-comentary" placeholder="Comentary"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset"><img src="#" alt="icon-cancel"></button>
             </form>
         </section>
     </main>
