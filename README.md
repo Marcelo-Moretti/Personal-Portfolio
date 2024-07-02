@@ -4,3 +4,5 @@ Also it's made in Linux Ubuntu as OS, with GIT as a version controler and Visual
 
 Host: Hostinger
 URL: Hostinger
+
+https://www.youtube.com/playlist?list=PLxeKVrYoZO6B64HVamfG1d8Jb2XIrNuRO
